@@ -1,0 +1,85 @@
+@font-face {
+  font-family: trapXtraBold;
+  src: url('Trap-ExtraBold.otf')
+}
+
+.title h1 {
+  color: #2c29e4;
+  font-family: trapXtraBold, 'Times New Roman';
+  font-size: 100px;
+  text-align: center;
+  font-weight: 50;
+  margin: 25px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #C8E5FA;
+  overflow:visible;
+  height: 62px;
+  width: 100%;
+  border: 2px 2px 6px;
+  border-style: solid hidden;
+  border-color: green;
+}
+
+.navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  height: 60px;
+  width: 20%;
+  background-color: #C8E5FA;
+  text-decoration: none;
+  transition: .75s;
+  overflow: visible;
+
+}
+
+.navbar a:hover {
+  background-color: white;
+  border-radius: 15px;
+  height: 60px;
+  width: 25%;
+}
+
+
+
+*{
+  background-color: #BBEDE1;
+}
+
+.column{
+  padding: 0px;
+  float: left;
+}
+
+.column.side{
+  width: 15%;
+  height: 500px;
+  background-color: #E0EDBB;
+}
+/*
+.column.side.left{
+  float: left;
+}
+*/
+.column.side.right{
+  float: right;
+}
+
+.column.middle{
+  width: 69.1%;
+  border: solid black 0px 5px;
+  padding-left: 15px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
